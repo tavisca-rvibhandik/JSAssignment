@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+
+	<script src="js\stringOperation.js"></script>
+
+    <title></title>
+</head>
+<body onload="construct()">
+
+    <h3>String Operations</h3><br /><br /><br />
+
+ 
+     
+
+    Enter first String :
+    <input type="text" id='conString1' name="value">
+
+    Enter Second String :
+    <input type="text" id='conString2' name="value"><br />
+
+    <input type="button" id="concat" value="Concat" onclick="testString.concat(conString1,conString2)"><br /><br />
+
+    
+
+    Enter String :
+    <input type="text" id='lenString1' name="value"><br />
+
+    <input type="button" id="Length" value="Length" onclick="testString.length(lenString1)"><br /><br />
+
+    
+    Enter String :
+    <input type="text" id='charString' name="value">
+
+    Enter Index :
+    <input type="text" id='charIndex' name="value"><br />
+
+    <input type="button" id="CharacterAt" value="Character At" onclick="testString.chatAt(charString, charIndex)"><br /><br />
+
+    
+
+    Enter first String :
+    <input type="text" id='subString1' name="value">
+
+    Enter Second String :
+    <input type="text" id='subString2' name="value">
+
+    Enter start Index :
+    <input type="text" id='subIndex1' name="value">
+
+    Enter end Index :
+    <input type="text" id='subIndex2' name="value"><br />
+
+    <input type="button" id="Substring" value="Substring" onclick="testString.subString(subString1, subString2, subIndex1, subIndex2)"><br /><br />
+
+
+  
+
+    
+
+    Enter String :
+    <input type="text" id='linString' name="value">
+
+    Enter Character :
+    <input type="text" id='linChar' name="value"><br />
+
+    <input type="button" id="LastIndexOf" value="Last Index Of" onclick="testString.lastIndexOf(linString, linChar)"><br /><br />
+
+
+    Enter String :
+    <input type="text" id='iString' name="value">
+
+    Enter first Character :
+    <input type="text" id='iChar' name="value"><br />
+
+     <input type="button" id="FindIndex" value="Index Of" onclick="testString.indexOf(iString, iChar)"><br /><br />
+
+
+    Enter String :
+    <input type="text" id='repString' name="value">
+
+    Enter first Character :
+    <input type="text" id='repChar1' name="value">
+
+    Enter replacement Character :
+    <input type="text" id='repChar2' name="value"><br />
+
+    <input type="button" id="Replace" value="Replace" onclick="testString.replace(repString, repChar1, repChar2)">
+
+
+
+     <h4>The result is :<h4> 
+     <input type="text" id="finalOutput">
+
+</body>
+</html>
