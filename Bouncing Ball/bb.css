@@ -1,0 +1,42 @@
+﻿     .circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    position:absolute;
+    background-color: purple;
+}
+
+   .circle1 {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    position:absolute;
+    background-color: blue;
+}
+
+/*
+#rectangle-sm{
+    width:400px;
+    height:200px;
+
+    background: black;
+}
+
+#rectangle-md{
+    width:600px;
+    height:400px;
+
+    background: black;
+}
+
+#rectangle-lg{
+    width:800px;
+    height:600px;
+
+    background: black;
+}
+    */
