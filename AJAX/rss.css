@@ -1,18 +1,103 @@
-﻿.format-div-odd {
-    background-color:honeydew;
+﻿.format-div-odd{
+    background-color:#E1E0D4;
     border-color:black;
     border-radius:10px;
+    padding:10px;
+   margin-top:5px;
+margin-bottom:5px;
+    height:100px;
 }
 
-.format-div-even {
-    background-color:burlywood;
+.format-inner{
+	 background-color:#ffffff;
+	padding:5px;
+    margin:10px;
+}
+
+.format-div-even{
+    background-color:#D1D0D4;
     border-color:black;
     border-radius:10px;
+    padding:10px;
+    margin-top:5px;
+margin-bottom:5px;
+    height:100px;
 }
 
-.image {
+.format-title{
+  color:blue;
+ 
+   font-weight:800;
+}
 
+.format-date{
+  float:right;
+  margin-top:0px;
+}
 
+.text-style1{
+    font-size:12px;
+     font-weight:400;
+	
+}
+
+.text-style3{
+    font-size:18px;
+     font-weight:900;
 }
 
 
+.text-style2{
+    font-size:14px;
+     font-weight:700;
+}
+
+.text-align{
+ float:right;
+
+}
+
+.head-backgnd1{
+color:#ffffff;
+ font-size:22px;
+     font-weight:900;
+	 background-color:#4B6C9E;
+	
+padding:18px;
+margin:0px;
+}
+
+.head-backgnd2{
+	color:#4B6C9E;
+	 background-color:#3A4F63;
+	font-size:14px;
+ font-weight:700;
+	margin:0px;
+padding:12px;
+}
+
+.body-backgnd-color{
+background-color:yellow;
+}
+
+.title-backgnd-color{
+background-color:red;
+}
+
+.thumb-backgnd-color{
+background-color:blue;
+}
+
+.body-border{
+	border:1px solid grey;
+}
+
+.input-height{
+	height:10px;
+}
+
+.body-margin{
+	margin-left:100px;
+	margin-right:100px;
+	
+}
